@@ -1,0 +1,13 @@
+CREATE DATABASE `my_database`;
+
+CREATE TABLE `student_tbl` (
+  `stud_id` int(100) UNSIGNED NOT NULL,
+  `stud_name` varchar(100) NOT NULL,
+  `stud_age` int(5) NOT NULL,
+  `stud_dep` varchar(100) NOT NULL
+);
+
+CREATE TABLE users (
+	username VARCHAR(100) NOT NULL,
+    password VARCHAR(100) NOT NULL
+);
